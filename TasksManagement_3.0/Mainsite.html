@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="/CSS/NavigationBar.css">
+<link rel="stylesheet" href="/CSS/Mainsite.css">
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body class="default">
+    <div class="topnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#tools"> Tools</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="Login.aspx" style="float:right">Login</a>
+    </div>
+    <div id="home" style="background-image: url('Media/Image/v1-Minimal-view-wallpaper-pc-hd.png'); background-repeat:no-repeat; height: 400px; background-attachment:fixed; background-size:100% 100%">
+        <div class="Intro">
+            <br />
+            <br />
+            <br />
+            <b> What is this ? </b>
+            <p>
+                This is a website designed to make jobs easier with tasks management tools. <br />
+                User-friendly, fast, secure.
+            </p>
+            <button onclick="window.location.href='Register.aspx'" style="height:50px"> Join as business </button>
+            <button onclick="window.location.href='Employee_Register.aspx'" style="height:50px"> Join as individual </button>
+            <br />
+            <br />
+            <button onclick="window.location.href='Login.aspx'" style="height:50px; background-color:antiquewhite"> Login </button>
+        </div>
+    </div>
+    <br />
+    <div id="tools" class="center-page">
+        <a class="form-left" href="https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet"> 
+            <p class="heading"> ASP.NET </p>
+            <p class="content">
+                ASP.NET extends the .NET developer platform with tools and libraries specifically for building web apps.
+            </p>
+        </a>
+        <a class="form-right" href="https://docs.microsoft.com/vi-vn/dotnet/framework/data/adonet/">
+            <p class="heading"> ADO.NET </p>
+            <p class="content">
+                ADO.NET is a set of classes that expose data access services for .NET Framework programmers. 
+            </p>
+        </a>
+    </div>
+</body>
+
+</html>

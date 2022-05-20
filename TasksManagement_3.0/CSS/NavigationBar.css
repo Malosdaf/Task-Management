@@ -1,0 +1,44 @@
+﻿.default {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto;
+    width: auto;
+    margin:auto;
+}
+
+.topnav {
+    width: auto;
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: darkblue;
+    color: white;
+}
+
+.username {
+    float: right;
+    background-color: black;
+    border: none;   
+    color: #f2f2f2;
+    text-align: center;
+    height: 48px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 68px;
+}

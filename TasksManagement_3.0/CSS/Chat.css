@@ -1,0 +1,75 @@
+﻿body {
+}
+
+.UserList {
+    line-height: 30px;
+    margin-top: 10px;
+    height: 600px;
+    width: 20%;
+    border: solid;
+    border-color: darkslateblue;
+    backdrop-filter: blur(8px);
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}
+.Message {
+    line-height: 30px;
+    margin-top: 10px;
+    height: 600px;
+    width: 79%;
+    border: solid;
+    border-color: darkslateblue;
+    backdrop-filter: blur(8px);
+    padding: 8px;
+    border-radius: 10px;
+    position: relative;
+    float: right;
+}
+.Name {
+    /*border:solid 2px;
+    border-color: black;*/
+    line-height: 20px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 0.25rem;
+    transition-duration: 200ms;
+}
+
+.Name:hover {
+    background-color: #4348735f;
+}
+
+.MesText {
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    border-radius: 10px;
+}
+.SendBtn {
+    position: absolute;
+    bottom: 10px;
+    width: 19%;
+    border-radius: 10px;
+    right: 0px;
+    background-color: darkcyan;
+    color: white;
+    border:none;
+}
+
+.MesMe {
+    background-color: dodgerblue;
+    color: white;
+    float: right;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.MesYou {
+    background-color: lightgray;
+    float: left;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 10px;
+}

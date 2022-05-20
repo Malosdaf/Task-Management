@@ -1,0 +1,32 @@
+﻿.NewForm {
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 30px;
+    margin-top: 10px;
+    background-color:#4648666f;
+    padding: 20px;
+    border-radius: 10px;
+    position: center;
+    backdrop-filter: blur(8px);
+    height: 100%;
+}
+.button {
+    background-color: darkblue;
+    color: whitesmoke;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 80px;
+    height: 50px;
+    right: 20px;
+    bottom: 10px;
+    position: absolute;
+}
+.textbox {
+    width: 98%;
+    height: 30px;
+}
+
+.description {
+    width: 98%;
+    height: 300px;
+}

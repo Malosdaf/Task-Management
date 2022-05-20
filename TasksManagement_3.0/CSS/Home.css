@@ -1,0 +1,27 @@
+﻿.noti {
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    backdrop-filter: blur(8px);
+    background-color: #4648666f;
+}
+.AcDnBt {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;   
+    width: 60px;
+    height: 30px;
+    overflow: visible;
+}
+body {
+    background-image: url('~Media/images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
